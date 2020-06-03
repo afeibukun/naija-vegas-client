@@ -1,0 +1,31 @@
+.navbar-sub a.nav-link i {
+    display: none;
+}
+
+.navbar-sub a.nav-link:hover {
+    background-color: #1e5c2f;
+}
+
+@media (max-width: 768px) {
+    .navbar-sub ul.navbar-nav {
+        justify-content: space-around;
+    }
+
+    .navbar-sub a.nav-link {
+        text-align: center;
+        display: inline-block;
+        border-radius: 4px;
+    }
+
+    .navbar-sub a.nav-link i {
+        display: inline-block;
+    }
+
+    .navbar-sub a.nav-link span {
+        width: 100%;
+        display: inline-block;
+        font-size: 0.7rem;
+    }
+
+
+}

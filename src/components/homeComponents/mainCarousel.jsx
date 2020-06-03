@@ -16,24 +16,24 @@ class MainCarousel extends Component {
           <Carousel.Item>
             <img className="d-block w-100" src={banner1} alt="First slide" />
             <Carousel.Caption>
-              <h3></h3>
-              <p></p>
+              {/*<h3></h3>
+              <p></p>*/}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={banner2} alt="Third slide" />
 
             <Carousel.Caption>
-              <h3></h3>
-              <p></p>
+              {/*<h3></h3>
+              <p></p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={banner3} alt="Third slide" />
 
             <Carousel.Caption>
-              <h3></h3>
-              <p></p>
+              {/*<h3></h3>
+              <p></p> */}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { IoIosArrowForward } from "react-icons/io";
@@ -6,15 +6,15 @@ import { IoIosArrowForward } from "react-icons/io";
 const LatestTips = () => {
   return (
     <Container>
-      <h3 className="h4 text-success font-weight-bold mb-4">Latest Tips</h3>
+      <h2 className="display-3 mb-4">Latest Tips</h2>
       <div className="mb-3">
         <small className="text-uppercase font-weight-bold">
           News and Updates
         </small>
       </div>
       <Row>
-        <Col>
-          <div className="news-container card">
+        <Col md={4}>
+          <div className="news-container card mb-2">
             <div className="news-image">
               <img
                 className="img-fluid"
@@ -33,8 +33,8 @@ const LatestTips = () => {
             </div>
           </div>
         </Col>
-        <Col>
-          <div className="news-container card">
+        <Col md={4}>
+          <div className="news-container card mb-2">
             <div className="news-image">
               <img
                 className="img-fluid"
@@ -53,8 +53,8 @@ const LatestTips = () => {
             </div>
           </div>
         </Col>
-        <Col>
-          <div className="news-container card">
+        <Col md={4}>
+          <div className="news-container card mb-2">
             <div className="news-image">
               <img
                 className="img-fluid"

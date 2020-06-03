@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import CustomerServiceBanner from "../../assets/img/banners/customer-service-banner.jpg";
@@ -8,14 +8,22 @@ const CustomerService = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col md={6}>
           <div className="d-flex h-100 align-items-center">
-            <div>
+            <div className="mb-3">
               <h2 className="mb-5">
                 <span>Customer Support</span>
               </h2>
-
               <div className="">
+                <div className="d-block d-md-none">
+                  <img
+                    className="img-fluid rounded-circle shadow-lg"
+                    src={CustomerServiceBanner}
+                    alt="customer support Img"
+                  />
+                </div>
+              </div>
+              <div className="mt-3">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -31,9 +39,9 @@ const CustomerService = () => {
             </div>
           </div>
         </Col>
-        <Col>
+        <Col md={6}>
           <div className="">
-            <div className="">
+            <div className="d-none d-md-block">
               <img
                 className="img-fluid rounded-circle shadow-lg"
                 src={CustomerServiceBanner}

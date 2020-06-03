@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+    .carousel-section>.container {
+        padding: 0px;
+    }
+}
+
 .trending-bet-section .bet-description {
     background-color: #2d8a41;
     border-top-right-radius: 90px 100px;

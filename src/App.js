@@ -1,6 +1,7 @@
 import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/main.css";
 import "./assets/css/custom.css";
 import "./assets/vendor/nucleo/css/nucleo.css";

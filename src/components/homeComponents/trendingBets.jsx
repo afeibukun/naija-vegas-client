@@ -13,7 +13,7 @@ const TrendingBets = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col md={6}>
           <div className="transform-perspective-left">
             <Carousel
               style={{ borderRadius: "10px", overflow: "hidden" }}
@@ -27,8 +27,8 @@ const TrendingBets = () => {
                   alt="First slide"
                 />
                 <Carousel.Caption>
-                  <h3></h3>
-                  <p></p>
+                  {/*<h3></h3>
+                  <p></p>*/}
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -39,8 +39,8 @@ const TrendingBets = () => {
                 />
 
                 <Carousel.Caption>
-                  <h3></h3>
-                  <p></p>
+                  {/*<h3></h3>
+                  <p></p>*/}
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -51,14 +51,14 @@ const TrendingBets = () => {
                 />
 
                 <Carousel.Caption>
-                  <h3></h3>
-                  <p></p>
+                  {/*<h3></h3>
+                  <p></p>*/}
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </div>
         </Col>
-        <Col>
+        <Col md={6}>
           <div>
             <h2 className="display-3">Trending Bets</h2>
             <p>
@@ -69,7 +69,7 @@ const TrendingBets = () => {
               <div>
                 <div
                   className={`bet-description mb-2 px-2 py-2 pr-5 d-inline-block text-white ${
-                    index == 0 ? "active" : ""
+                    index === 0 ? "active" : ""
                   }`}
                 >
                   <p className="head m-0">
@@ -88,7 +88,7 @@ const TrendingBets = () => {
 
                 <div
                   className={`bet-description mb-2 px-2 py-2 pr-5 d-inline-block text-white ${
-                    index == 1 ? "active" : ""
+                    index === 1 ? "active" : ""
                   }`}
                 >
                   <p className="head m-0">
@@ -107,7 +107,7 @@ const TrendingBets = () => {
 
                 <div
                   className={`bet-description mb-2 px-2 py-2 pr-5 d-inline-block text-white ${
-                    index == 2 ? "active" : ""
+                    index === 2 ? "active" : ""
                   }`}
                 >
                   <p className="head m-0">

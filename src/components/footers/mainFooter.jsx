@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Logo from "../../assets/img/brand/NaijaVegasLogoRectSmall.png";
 import { IoIosMail, IoIosPhonePortrait } from "react-icons/io";
@@ -7,7 +7,7 @@ const MainFooter = () => {
     <footer className="footer text-white" style={{ backgroundColor: "#000" }}>
       <Container>
         <Row className="row-grid my-md row">
-          <Col className="">
+          <Col md={3} sm={6} className="">
             <small className="text-uppercase text-muted font-weight-bold">
               Help Desk
             </small>
@@ -26,7 +26,7 @@ const MainFooter = () => {
               </li>
             </ul>
           </Col>
-          <Col className="">
+          <Col sm={6} md={3} className="">
             <small className="text-uppercase text-muted font-weight-bold">
               Legal
             </small>
@@ -39,7 +39,7 @@ const MainFooter = () => {
               </li>
             </ul>
           </Col>
-          <Col className="">
+          <Col sm={6} md={3} className="">
             <small className="text-uppercase text-muted font-weight-bold">
               Contact
             </small>
@@ -61,7 +61,7 @@ const MainFooter = () => {
               </li>
             </ul>
           </Col>
-          <Col className="">
+          <Col sm={6} md={3} className="">
             <small className="text-uppercase text-muted font-weight-bold">
               Categories
             </small>
@@ -90,6 +90,7 @@ const MainFooter = () => {
               href="https://twitter.com/naijavegas"
               id="tooltip475038074"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn-icon-only rounded-circle btn btn-twitter"
             >
               <span className="btn-inner--icon">
@@ -100,6 +101,7 @@ const MainFooter = () => {
               href="https://www.facebook.com/naiajavegas"
               id="tooltip837440414"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn-icon-only rounded-circle ml-1 btn btn-facebook"
             >
               <span className="btn-inner--icon">
@@ -110,6 +112,7 @@ const MainFooter = () => {
               href="https://www.instagram.com/naiajavegas"
               id="tooltip837440414"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn-icon-only rounded-circle ml-1 btn btn-instagram"
             >
               <span className="btn-inner--icon">
@@ -126,6 +129,7 @@ const MainFooter = () => {
               <a
                 href="https://www.naijavegas.com?ref=adsr-footer"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Naija Vegas
               </a>
@@ -138,6 +142,7 @@ const MainFooter = () => {
                 <a
                   href="https://www.naijavegas.com?ref=adsr-footer"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="nav-link"
                 >
                   Create Account
@@ -148,6 +153,7 @@ const MainFooter = () => {
                 <a
                   href="http://news.naijavegas.com?ref=adsr-footer"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="nav-link"
                 >
                   Latest Tips
@@ -157,6 +163,7 @@ const MainFooter = () => {
                 <a
                   href="http://news.naijavegas.com?ref=adsr-footer"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="nav-link"
                 >
                   Trending Bets

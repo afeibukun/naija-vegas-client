@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-// import Sliders from "../components/sliders";
+// import { Container, Row, Col } from "react-bootstrap";
 
 import MainCarousel from "../components/homeComponents/mainCarousel";
 import TrendingBets from "../components/homeComponents/trendingBets";

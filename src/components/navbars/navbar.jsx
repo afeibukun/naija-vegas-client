@@ -1,7 +1,19 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/brand/NaijaVegasLogoSquaExSmall.png";
+import "../../assets/css/navbar.css";
 import { IoIosPersonAdd, IoIosLogIn } from "react-icons/io";
+import {
+  FaVoteYea,
+  FaRegFutbol,
+  FaAward,
+  FaMedal,
+  FaFutbol,
+} from "react-icons/fa";
+import IconPolitics from "../../assets/img/icons/001-politics.svg";
+import IconSport from "../../assets/img/icons/002-stadium.svg";
+import IconAwards from "../../assets/img/icons/003-trophy.svg";
+import IconSpecial from "../../assets/img/icons/004-medal.svg";
 
 class NavBar extends Component {
   state = {};
@@ -13,8 +25,8 @@ class NavBar extends Component {
           className="navbar navbar-main navbar-expand-lg navbar-light headroom"
           style={{
             backgroundColor: "#000900",
-            paddingTop: "8px",
-            paddingBottom: "8px",
+            paddingTop: "5px",
+            paddingBottom: "5px",
           }}
         >
           <div className="container">
@@ -22,10 +34,9 @@ class NavBar extends Component {
               className="d-flex justify-content-between w-100"
               id="navbar_global"
             >
-              <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
+              <ul className="navbar-nav navbar-nav-hover align-items-lg-center justify-content-center">
                 <li className="nav-item">
                   <Link to="/login" className="nav-link" role="button">
-                    <i className="ni ni-ui-04 d-lg-none"></i>
                     <span style={{ color: "#3bb85d" }}>
                       <IoIosLogIn />
                     </span>
@@ -48,7 +59,7 @@ class NavBar extends Component {
                   </div>
                 </div>
               </div>
-              <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
+              <ul className="navbar-nav navbar-nav-hover align-items-lg-center justify-content-center">
                 <li className="nav-item">
                   <Link
                     to="/register"
@@ -56,7 +67,6 @@ class NavBar extends Component {
                     data-toggle="dropdown"
                     role="button"
                   >
-                    <i className="ni ni-ui-04 d-lg-none"></i>
                     <span style={{ color: "#3bb85d" }}>
                       <IoIosPersonAdd />
                     </span>
@@ -71,11 +81,11 @@ class NavBar extends Component {
         </nav>
         <nav
           id="navbar-sub"
-          className="navbar navbar-main navbar-expand-lg navbar-light headroom"
+          className="navbar navbar-sub navbar-expand-lg navbar-light headroom"
           style={{
             backgroundColor: "#2c8a45",
-            paddingTop: "8px",
-            paddingBottom: "8px",
+            paddingTop: "5px",
+            paddingBottom: "5px",
           }}
         >
           <div className="container">
@@ -83,35 +93,43 @@ class NavBar extends Component {
               className="d-flex justify-content-between w-100"
               id="navbar_global"
             >
-              <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
+              <ul className="navbar-nav navbar-nav-hover align-items-lg-center flex-row w-100">
                 <li className="nav-item">
-                  <a href="#" className="nav-link" role="button">
-                    <i className="ni ni-ui-04 d-lg-none"></i>
-                    <span className="nav-link-inner--text text-white">
+                  <a href="#" className="nav-link px-2" role="button">
+                    <i className="text-white">
+                      <FaVoteYea />
+                    </i>
+                    <span className="nav-link-inner--text ml-0 text-white">
                       Politics
                     </span>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link" role="button">
-                    <i className="ni ni-ui-04 d-lg-none"></i>
-                    <span className="nav-link-inner--text text-white">
+                  <a href="#" className="nav-link px-2" role="button">
+                    <i className="text-white">
+                      <FaRegFutbol />
+                    </i>
+                    <span className="nav-link-inner--text ml-0 text-white">
                       Sports
                     </span>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link" role="button">
-                    <i className="ni ni-ui-04 d-lg-none"></i>
-                    <span className="nav-link-inner--text text-white">
+                  <a href="#" className="nav-link  px-2" role="button">
+                    <i className="text-white">
+                      <FaAward />
+                    </i>
+                    <span className="nav-link-inner--text ml-0 text-white">
                       Awards
                     </span>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link" role="button">
-                    <i className="ni ni-ui-04 d-lg-none"></i>
-                    <span className="nav-link-inner--text text-white">
+                  <a href="#" className="nav-link px-2" role="button">
+                    <i className="text-white">
+                      <FaMedal />
+                    </i>
+                    <span className="nav-link-inner--text ml-0 text-white">
                       Special Bets
                     </span>
                   </a>
