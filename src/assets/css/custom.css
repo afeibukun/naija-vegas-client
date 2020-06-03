@@ -1,0 +1,20 @@
+.trending-bet-section .bet-description {
+    background-color: #2d8a41;
+    border-top-right-radius: 90px 100px;
+    border-bottom-right-radius: 40px;
+}
+
+.trending-bet-section .bet-description.active {
+    padding-right: 100px !important;
+    background-color: #1c6837;
+}
+
+.footer ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer li {
+    list-style-type: none;
+    margin: 0;
+}
