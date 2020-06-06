@@ -100,7 +100,9 @@ class NavBar extends Component {
                       <FaVoteYea />
                     </i>
                     <span className="nav-link-inner--text ml-0 text-white">
-                      Politics
+                      <Link to="/politics" className="text-white">
+                        Politics
+                      </Link>
                     </span>
                   </a>
                 </li>
