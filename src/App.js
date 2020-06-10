@@ -13,7 +13,7 @@ import NavBar from "./components/navbars/navbar";
 import HomePage from "./views";
 import LoginPage from "./views/login";
 import RegisterPage from "./views/register";
-import { Politics } from "./views/exports";
+import { Politics, Sports } from "./views/exports";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
           <Route exact path="/login" component={LoginPage} />
           <Route exact path="/register" component={RegisterPage} />
           <Route exact path="/politics" component={Politics} />
+          <Route exact path="/sports" component={Sports} />
         </Switch>
       </Router>
     </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaPlus, FaCalendar, FaMinus } from "react-icons/all";
+import ReactFlags from "react-country-flag";
 import "./bet.css";
 
 const BetDropDown = (props) => {
@@ -13,7 +14,7 @@ const BetDropDown = (props) => {
           opened ? "bg-primary" : "bg-dark"
         } mx-4 px-3 py-2`}
       >
-        <p className="mb-0">{betName}</p>
+        <p className="mb-0 bet-header">{betName}</p>
         {!opened ? (
           <FaPlus
             onClick={() => {
@@ -42,7 +43,10 @@ const BetDropDown = (props) => {
       <section class="collapse mx-5" id={`bet${props.id}`}>
         <div class="card card-body rounded-0">
           <section className="d-flex justify-content-between align-items-center border px-2 py-1">
-            <p className="mb-0">Trump to Win</p>
+            <p className="mb-0">
+              <ReactFlags countryCode="US" svg className="mr-1" />
+              Trump to Win
+            </p>
             <div className="d-flex">
               <article className="mr-3">
                 <small>Yes</small>
@@ -62,7 +66,10 @@ const BetDropDown = (props) => {
 
         <div class="card card-body rounded-0">
           <section className="d-flex justify-content-between align-items-center border px-2 py-1">
-            <p className="mb-0">Trump to Win</p>
+            <p className="mb-0">
+              <ReactFlags countryCode="ng" svg className="mr-1" />
+              Trump to Win
+            </p>
             <div className="d-flex">
               <article className="mr-3">
                 <small>Yes</small>
@@ -82,7 +89,10 @@ const BetDropDown = (props) => {
 
         <div class="card card-body rounded-0">
           <section className="d-flex justify-content-between align-items-center border px-2 py-1">
-            <p className="mb-0">Trump to Win</p>
+            <p className="mb-0">
+              <ReactFlags countryCode="ng" svg className="mr-1" />
+              Trump to Win
+            </p>
             <div className="d-flex">
               <article className="mr-3">
                 <small>Yes</small>

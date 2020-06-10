@@ -1,0 +1,95 @@
+.plus-toggle {
+  height: 24px;
+}
+
+.red-odd-box {
+  background: #ff0000;
+  padding: 0.5em 0.4em;
+  margin-bottom: 0.3rem;
+}
+
+.flag-sm {
+  width: 20px;
+  object-fit: contain;
+  object-position: center;
+  margin-right: 0.2em;
+}
+
+.pageHeader {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 69.19%;
+  letter-spacing: -0.02em;
+  color: rgba(0, 4, 13, 0.93);
+}
+
+.bet-header {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125.19%;
+  color: #ffffff;
+}
+
+.sub-sportsBet-header {
+  background: #bbc0ec;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.matches-header {
+  flex-basis: 20%;
+}
+
+.matches-bet-odd-header {
+  flex-basis: 80%;
+}
+
+.league-header h3 {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 90.19%;
+  color: rgba(0, 4, 13, 0.93);
+}
+
+.league-date {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 113.69%;
+  color: rgba(0, 0, 0, 0.49);
+}
+
+.league-team {
+  font-family: " Source Serif Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #000000;
+}
+
+.match-time {
+  font-family: " Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 113.69%;
+  color: #000000;
+}
+
+.odd-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 113.69%;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.time-and-team {
+  flex-basis: 20%;
+}

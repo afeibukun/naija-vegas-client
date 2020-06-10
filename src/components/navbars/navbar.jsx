@@ -97,7 +97,9 @@ class NavBar extends Component {
                 <li className="nav-item">
                   <a href="#" className="nav-link px-2" role="button">
                     <i className="text-white">
-                      <FaVoteYea />
+                      <Link to="/politics" className="text-white">
+                        <FaVoteYea />
+                      </Link>
                     </i>
                     <span className="nav-link-inner--text ml-0 text-white">
                       <Link to="/politics" className="text-white">
@@ -109,10 +111,14 @@ class NavBar extends Component {
                 <li className="nav-item">
                   <a href="#" className="nav-link px-2" role="button">
                     <i className="text-white">
-                      <FaRegFutbol />
+                      <Link to="/sports" className="text-white">
+                        <FaRegFutbol />
+                      </Link>
                     </i>
                     <span className="nav-link-inner--text ml-0 text-white">
-                      Sports
+                      <Link to="/sports" className="text-white">
+                        Sports
+                      </Link>
                     </span>
                   </a>
                 </li>
