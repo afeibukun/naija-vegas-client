@@ -7,13 +7,8 @@ import {
   FaVoteYea,
   FaRegFutbol,
   FaAward,
-  FaMedal,
-  FaFutbol,
+  FaMedal
 } from "react-icons/fa";
-import IconPolitics from "../../assets/img/icons/001-politics.svg";
-import IconSport from "../../assets/img/icons/002-stadium.svg";
-import IconAwards from "../../assets/img/icons/003-trophy.svg";
-import IconSpecial from "../../assets/img/icons/004-medal.svg";
 
 class NavBar extends Component {
   state = {};
@@ -83,7 +78,7 @@ class NavBar extends Component {
           id="navbar-sub"
           className="navbar navbar-sub navbar-expand-lg navbar-light headroom"
           style={{
-            backgroundColor: "#2c8a45",
+            backgroundColor: "#bf0000",
             paddingTop: "5px",
             paddingBottom: "5px",
           }}
@@ -95,32 +90,32 @@ class NavBar extends Component {
             >
               <ul className="navbar-nav navbar-nav-hover align-items-lg-center flex-row w-100">
                 <li className="nav-item">
-                  <a href="#" className="nav-link px-2" role="button">
+                  <Link
+                    to="/politics"
+                    className="text-white nav-link px-2"
+                    role="button"
+                  >
                     <i className="text-white">
-                      <Link to="/politics" className="text-white">
-                        <FaVoteYea />
-                      </Link>
+                      <FaVoteYea />
                     </i>
                     <span className="nav-link-inner--text ml-0 text-white">
-                      <Link to="/politics" className="text-white">
-                        Politics
-                      </Link>
+                      Politics
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link px-2" role="button">
+                  <Link
+                    to="/sports"
+                    className="text-white nav-link px-2"
+                    role="button"
+                  >
                     <i className="text-white">
-                      <Link to="/sports" className="text-white">
-                        <FaRegFutbol />
-                      </Link>
+                      <FaRegFutbol />
                     </i>
                     <span className="nav-link-inner--text ml-0 text-white">
-                      <Link to="/sports" className="text-white">
-                        Sports
-                      </Link>
+                      Sports
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a href="#" className="nav-link  px-2" role="button">

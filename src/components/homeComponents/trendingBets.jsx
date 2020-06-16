@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import ReactCountryFlag from "react-country-flag";
 
+import trendy03 from "../../assets/img/banners/edo-election.jpg";
+
 const TrendingBets = () => {
   const [index, setIndex] = useState(0);
 
@@ -46,8 +48,8 @@ const TrendingBets = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://picsum.photos/400"
-                  alt="Third slide"
+                  src={trendy03}
+                  alt="Edo Elections"
                 />
 
                 <Carousel.Caption>
@@ -112,7 +114,7 @@ const TrendingBets = () => {
                 >
                   <p className="head m-0">
                     <span className="text-uppercase mr-2">
-                      Trump Re-election
+                      Edo Gubernatorial
                     </span>
                     <span>20:00</span>
                   </p>
@@ -120,13 +122,13 @@ const TrendingBets = () => {
                     <span className="mr-2">
                       <ReactCountryFlag countryCode="US" svg />
                     </span>
-                    <span>US Election</span>
+                    <span>Edo Election</span>
                   </p>
                 </div>
               </div>
               <a
                 href="https://www.example.com"
-                className="mt-2 mb-3 mb-sm-0 btn btn-default btn-lg px-5 py-2 text-uppercase btn-round"
+                className="mt-2 mb-3 mb-sm-0 btn btn-success btn-lg px-5 py-2 text-uppercase btn-round"
               >
                 <span className="btn-inner--text">BET NOW</span>
               </a>

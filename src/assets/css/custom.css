@@ -5,14 +5,14 @@
 }
 
 .trending-bet-section .bet-description {
-    background-color: #2d8a41;
+    background-color: #ff2f2f;
     border-top-right-radius: 90px 100px;
     border-bottom-right-radius: 40px;
 }
 
 .trending-bet-section .bet-description.active {
     padding-right: 100px !important;
-    background-color: #1c6837;
+    background-color: #bf0000;
 }
 
 .footer ul {
