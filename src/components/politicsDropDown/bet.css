@@ -93,3 +93,10 @@
 .time-and-team {
   flex-basis: 20%;
 }
+
+.bar_header {
+  background: #404cba;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-size: 20px;
+}

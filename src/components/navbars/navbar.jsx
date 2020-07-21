@@ -138,7 +138,9 @@ class NavBar extends Component {
                       <FaMedal />
                     </i>
                     <span className="nav-link-inner--text ml-0 text-white">
-                      Special Bets
+                      <Link to="/specialbets" className="text-white">
+                        Special Bets
+                      </Link>
                     </span>
                   </a>
                 </li>
